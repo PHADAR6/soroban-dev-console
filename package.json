@@ -7,8 +7,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo run build --filter=web --filter=@devconsole/ui --filter=@devconsole/soroban-utils",
-    "dev": "turbo run dev --filter=web",
+    "build": "node api.js && turbo run build --filter=web --filter=@devconsole/ui --filter=@devconsole/soroban-utils",
+    "dev": "node api.js && turbo run dev --filter=web",
     "lint": "turbo run lint --filter=web --filter=@devconsole/ui --filter=@devconsole/soroban-utils",
     "typecheck": "turbo run typecheck --filter=web --filter=@devconsole/ui --filter=@devconsole/soroban-utils",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
