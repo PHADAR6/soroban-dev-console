@@ -5,7 +5,7 @@
   "types": "./src/index.ts",
   "license": "MIT",
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

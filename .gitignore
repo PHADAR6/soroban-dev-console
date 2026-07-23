@@ -10,8 +10,6 @@ dist
 build
 
 # env files
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -27,7 +25,6 @@ pnpm-debug.log*
 Thumbs.db
 
 # IDE / Editor
-.vscode
 .idea
 
 # Turbopack
@@ -46,3 +43,7 @@ contracts/**/target/
 # DEVOPS-216: release evidence bundles (generated locally or in CI)
 release-evidence/
 release-evidence-bundle.tar.gz
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
